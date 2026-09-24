@@ -1,0 +1,272 @@
+- name: Open Specifications
+  href: /openspecs/
+  expanded: true
+  items:
+    - name: Protocols
+      href: /openspecs/protocols/ms-protocolslp/9a3ae8a2-02e5-4d05-874a-b3551405d8f9
+      expanded: true
+      items:
+      - name: Office Protocols
+        href: /openspecs/office_protocols/ms-offprotlp/5859f0f1-a929-475b-9b23-554994675456
+        expanded: true
+        items:
+        - name: "Technical Documents"
+          href: /openspecs/office_protocols/ms-offprotlp/939e9850-c48d-464d-860e-78f8b281e7bd
+          expanded: true
+          items:
+          - name: "[MS-ABS]: Address Book File Structure"
+            href: ddc59abf-1f42-4935-9b72-5314665dbcff.md
+            items:
+            - name: "1 Introduction"
+              href: 48202944-3bc4-4bdb-970d-11eeb56d3dbe.md
+              items:
+              - name: "1.1 Glossary"
+                href: 0c7c72f3-b621-4f80-b2ea-c5be149646ec.md
+              - name: "1.2 References"
+                href: 3b305d0f-1a0e-4984-82fa-b00cbaac5a21.md
+                items:
+                - name: "1.2.1 Normative References"
+                  href: 2e6f2cd1-b0a5-4aea-8b53-048e7b217c1d.md
+                - name: "1.2.2 Informative References"
+                  href: c01f67af-4259-456a-a091-eb4bf745500c.md
+              - name: "1.3 Structure Overview (Synopsis)"
+                href: a87e47f6-6f1c-44b3-b7c3-1eded5f117d9.md
+                items:
+                - name: "1.3.1 Address Book Server Configuration"
+                  href: 8c89adff-4e30-4c5e-832a-b7ae8abf62ed.md
+                - name: "1.3.2 Compressed File Format"
+                  href: 8ec5de01-be25-4a75-875e-68b194ce6d3a.md
+                - name: "1.3.3 Decompressed File Format"
+                  href: 8b67c8d0-9df2-4218-abef-7bd5b9a58366.md
+                - name: "1.3.4 Byte Ordering"
+                  href: 330f6552-6be9-4024-a6b3-8514b2651c47.md
+              - name: "1.4 Relationship to Protocols and Other Structures"
+                href: 91c484f4-31f3-4e8e-8cdc-845b28188e24.md
+              - name: "1.5 Applicability Statement"
+                href: 2d7c6de7-9d5c-4bb0-95a7-433b7ebfb4a6.md
+              - name: "1.6 Versioning and Localization"
+                href: ee3f9619-f063-4828-b52e-53593bc88562.md
+              - name: "1.7 Vendor-Extensible Fields"
+                href: e2c9229a-5a41-4b56-9484-a0a1bb32299f.md
+            - name: "2 Structures"
+              href: 53a2aff1-da2a-4c51-8384-aeb900437a3b.md
+              items:
+              - name: "2.1 Address Book File Enumeration Tables"
+                href: 87b09aac-a991-4491-88b6-b70ecb0369c8.md
+                items:
+                - name: "2.1.1 ABF_ATTRIBUTE_FLAGS Enumeration"
+                  href: 1d7b790d-2ced-45ea-9b87-c13862f1965d.md
+                - name: "2.1.2 ABF_ATTRIBUTE_TYPE Enumeration"
+                  href: c98381f9-4f86-47ec-8e2a-d063fae70690.md
+                - name: "2.1.3 ABF_ATTRIBUTE_NORMALIZATION_CONTROL Enumeration"
+                  href: e6728755-205c-4bc2-94f6-0f09c9f094b1.md
+                - name: "2.1.4 ABF_ATTRIBUTE_CLIENT_FIELD Enumeration"
+                  href: 4aa3492c-d1ed-4ba1-b03f-7eb9b58680f2.md
+              - name: "2.2 Address Book File Structures"
+                href: 9befc1ea-81c4-4fe9-bcb6-0905263a17d3.md
+                items:
+                - name: "2.2.1 COMPRESSED_BLOCK Structure"
+                  href: cd3364d5-7ec3-49b7-af21-32428b59c6b1.md
+                - name: "2.2.2 COMPRESSED_BLOCK_HEADER Structure"
+                  href: b2232f9c-391c-4e30-8624-f5fb792f1203.md
+                - name: "2.2.3 ABF_FULL_HEADER Structure"
+                  href: b8ca13d5-6120-47cc-b4ab-9bd0cf4b27c1.md
+                - name: "2.2.4 ABF_DELTA_HEADER Structure"
+                  href: ec9e5b68-d82a-46b5-adb8-242ef10c005a.md
+                - name: "2.2.5 ABF_NORMALIZATION_RULES Structure"
+                  href: 1699d600-cec8-415c-b59d-05db90be0fb2.md
+                - name: "2.2.6 ABF_ATTRIBUTES Structure"
+                  href: 63c0af9f-a14d-4987-b8d2-f1c06e91da65.md
+                - name: "2.2.7 ABF_ATTRIBUTE Structure"
+                  href: b9627623-3d6e-48cc-b343-cece7ee82faa.md
+                - name: "2.2.8 ABF_CONTACTS Structure"
+                  href: f4ce14fb-9f80-465a-99ff-bf1dd2241675.md
+                - name: "2.2.9 ABF_DELETED_CONTACTS Structure"
+                  href: b7b5bc53-dba9-491c-ab97-4462e024f20d.md
+                - name: "2.2.10 ABF_CONTACT Structure"
+                  href: 0f063341-df54-4eeb-aabe-af2cb67ab572.md
+                - name: "2.2.11 ABF_CONTACT_ATTRIBUTE Structure"
+                  href: 157ffb6c-d549-4f64-aa62-e065b73b7892.md
+                - name: "2.2.12 ABF_FULL_TRAILER Structure"
+                  href: b745e4fb-ba9f-44c9-885c-f066d2005440.md
+                - name: "2.2.13 ABF_DELTA_TRAILER Structure"
+                  href: 04c0e676-0fa7-4371-8636-0781b89c9a55.md
+                - name: "2.2.14 ABF_TRAILER_LENGTH Structure"
+                  href: 63d7ef3d-5240-40bd-b169-ab4bd097c70e.md
+                - name: "2.2.15 ABF_CONTACTS_CHANGES Structure"
+                  href: 59cfb652-8dc8-468f-9c09-9c09ba182650.md
+                - name: "2.2.16 ABF_CONTACT_CHANGES Structure"
+                  href: bce1c3ba-d9ad-4471-95ad-08a43865d736.md
+            - name: "3 Structure Examples"
+              href: b059b215-2a16-4614-8094-45ea1c5ccdda.md
+              items:
+              - name: "3.1 Address Book File"
+                href: d714352c-fb9d-4c9d-93ca-bd40f8fd6ad0.md
+                items:
+                - name: "3.1.1 ABF_DELTA_HEADER"
+                  href: 14b5c87c-3be3-45bd-81ef-b0d467992800.md
+                - name: "3.1.2 ABF_NORMALIZATION_RULES"
+                  href: 9d0e8d06-3057-4392-9b84-8bbed8b32315.md
+                - name: "3.1.3 Attribute Structure"
+                  href: 08565f0b-a297-44f4-b8b0-239c7b686e70.md
+                  items:
+                  - name: "3.1.3.1 ABF_ATTRIBUTE manager"
+                    href: f7a06cb7-a644-4ee8-a062-73c9836f0db1.md
+                  - name: "3.1.3.2 ABF_ATTRIBUTE groupType"
+                    href: 7f5da36d-6344-43bc-9f49-e86e1b047f67.md
+                  - name: "3.1.3.3 ABF_ATTRIBUTE proxyAddresses"
+                    href: e5b0106f-99f2-4398-9b4d-3aeee3303f49.md
+                  - name: "3.1.3.4 ABF_ATTRIBUTE mail"
+                    href: 3317c857-2d58-42f0-acff-f998197850b4.md
+                  - name: "3.1.3.5 ABF_ATTRIBUTE ipPhone"
+                    href: 8695acf6-54cb-42af-80e2-9b84e85cd82d.md
+                  - name: "3.1.3.6 ABF_ATTRIBUTE otherTelephone"
+                    href: 15869da7-6f42-4864-8a90-cf5a8eee1a89.md
+                  - name: "3.1.3.7 ABF_ATTRIBUTE otherMobile"
+                    href: 96487134-d99c-41fa-9767-06258fdb3c5a.md
+                  - name: "3.1.3.8 ABF_ATTRIBUTE mobile"
+                    href: 911ea0ba-a44d-4411-8ed4-535f6fd2a375.md
+                  - name: "3.1.3.9 ABF_ATTRIBUTE otherHomePhone"
+                    href: f8c4eb88-b6c8-401f-b409-6c93f56fa659.md
+                  - name: "3.1.3.10 ABF_ATTRIBUTE homePhone"
+                    href: 2377061d-c32f-43fb-aa81-920cab16601d.md
+                  - name: "3.1.3.11 ABF_ATTRIBUTE telephoneNumber"
+                    href: f4c59d9f-8481-447e-9c7e-48e472b6eeca.md
+                  - name: "3.1.3.12 ABF_ATTRIBUTE msRTCSIP-PrimaryUserAddress"
+                    href: 5386bf26-c023-4183-8160-d280ce5bfec4.md
+                  - name: "3.1.3.13 ABF_ATTRIBUTE physicalDeliveryOfficeName"
+                    href: 04d82f4e-362c-4ab7-b72d-95f4d1db85fc.md
+                  - name: "3.1.3.14 ABF_ATTRIBUTE company"
+                    href: c7e52e25-406f-40b0-95a7-2cebae3aa2f0.md
+                  - name: "3.1.3.15 ABF_ATTRIBUTE mailNickname"
+                    href: 3030849e-9d2f-4d23-add2-ba324f4593a5.md
+                  - name: "3.1.3.16 ABF_ATTRIBUTE title"
+                    href: 1817c34d-6836-4e6a-b661-172b78f6cc55.md
+                  - name: "3.1.3.17 ABF_ATTRIBUTE displayName"
+                    href: b8a00393-3fe6-4f28-8bf1-7c5f0629fa3b.md
+                  - name: "3.1.3.18 ABF_ATTRIBUTE sn"
+                    href: 33967222-ecf4-4be6-b4bc-184f5a72592e.md
+                  - name: "3.1.3.19 ABF_ATTRIBUTE givenName"
+                    href: 7674554c-e357-4ad0-b08f-baa3b03df149.md
+                  - name: "3.1.3.20 ABF_ATTRIBUTE msExchHideFromAddressLists"
+                    href: 169278bd-7fe5-458c-99b2-13c48d19b4b2.md
+                - name: "3.1.4 ABSUser1 Contact"
+                  href: 876e095a-06fa-4000-9394-1c394f251728.md
+                  items:
+                  - name: "3.1.4.1 ABF_CONTACT"
+                    href: 47ab6714-ae35-4165-9052-3f8e0242a301.md
+                  - name: "3.1.4.2 ABF_CONTACT_ATTRIBUTE mail"
+                    href: 27088e7a-1c7d-4fbd-884d-639f4cb5c816.md
+                  - name: "3.1.4.3 ABF_CONTACT_ATTRIBUTE otherTelephone"
+                    href: e9a9433a-f1ee-4342-bd2f-de39b0d539c9.md
+                  - name: "3.1.4.4 ABF_CONTACT_ATTRIBUTE otherTelephone, normalized"
+                    href: b8bb3dd2-bec5-4ca0-af3d-6e0bdb49956d.md
+                  - name: "3.1.4.5 ABF_CONTACT_ATTRIBUTE mobile"
+                    href: 79f3ac8b-d9c5-43a3-9dc0-62cf72ba376f.md
+                  - name: "3.1.4.6 ABF_CONTACT_ATTRIBUTE mobile, normalized"
+                    href: 0fafb926-55ab-4176-9836-93a6e4202f20.md
+                  - name: "3.1.4.7 ABF_CONTACT_ATTRIBUTE otherHomePhone"
+                    href: 0f687cb6-4c9e-40f0-b83d-ce3e914eee0d.md
+                  - name: "3.1.4.8 ABF_CONTACT_ATTRIBUTE otherHomePhone, normalized"
+                    href: 82f4d00d-54fe-4d8c-b2ff-dd59fe722f49.md
+                  - name: "3.1.4.9 ABF_CONTACT_ATTRIBUTE homePhone"
+                    href: b72656d1-8c2b-43af-8568-20982e69b9d5.md
+                  - name: "3.1.4.10 ABF_CONTACT_ATTRIBUTE homePhone, normalized"
+                    href: 1ddc006d-d4a7-46f8-b16d-db2222c4810b.md
+                  - name: "3.1.4.11 ABF_CONTACT_ATTRIBUTE telephoneNumber"
+                    href: aaa47d09-8351-4b1d-a846-d017afd0f3e1.md
+                  - name: "3.1.4.12 ABF_CONTACT_ATTRIBUTE telephoneNumber, normalized"
+                    href: edf69b95-e216-4237-8efe-160b776ecdca.md
+                  - name: "3.1.4.13 ABF_CONTACT_ATTRIBUTE msRTCSIP-PrimaryUserAddress"
+                    href: 654b6ebb-f0fb-4a66-8957-4fd00046a73e.md
+                  - name: "3.1.4.14 ABF_CONTACT_ATTRIBUTE physicalDeliveryOfficeName"
+                    href: dcdc1f50-d09d-465e-9d03-defc28f50b53.md
+                  - name: "3.1.4.15 ABF_CONTACT_ATTRIBUTE company"
+                    href: d5c840bd-61d6-42b9-9453-a74e3c65c7ec.md
+                  - name: "3.1.4.16 ABF_CONTACT_ATTRIBUTE title"
+                    href: 69d84acf-d848-4c07-89f1-2b6b16b39a2d.md
+                  - name: "3.1.4.17 ABF_CONTACT_ATTRIBUTE displayName"
+                    href: c6be3c3f-e252-4d55-a96c-e785dfed943a.md
+                  - name: "3.1.4.18 ABF_CONTACT_ATTRIBUTE sn"
+                    href: 96b363ad-a6fa-4ca4-8366-4778e9cd0f0d.md
+                  - name: "3.1.4.19 ABF_CONTACT_ATTRIBUTE givenName"
+                    href: b5658346-eda3-48be-addd-bfd2273be613.md
+                - name: "3.1.5 ABSUser5 Contact"
+                  href: 5920346a-c4ad-49b8-b939-86abf9a5295a.md
+                  items:
+                  - name: "3.1.5.1 ABF_CONTACT"
+                    href: 60f16f32-c6ff-4bbd-b7f8-73eccfd4044f.md
+                  - name: "3.1.5.2 ABF_CONTACT_ATTRIBUTE telephoneNumber"
+                    href: 816cc424-4a50-4afc-a780-d0239ff70ef7.md
+                  - name: "3.1.5.3 ABF_CONTACT_ATTRIBUTE telephoneNumber, normalized"
+                    href: ad08de3c-2d77-43f3-a5c5-b0bb45c7d368.md
+                  - name: "3.1.5.4 ABF_CONTACT_ATTRIBUTE msRTCSIP-PrimaryUserAddress"
+                    href: 50630c1b-6ffe-4ebc-9c0e-68b01fc306f5.md
+                  - name: "3.1.5.5 ABF_CONTACT_ATTRIBUTE displayName"
+                    href: 1dfdf80a-f994-468e-82b8-a69beab57ac4.md
+                  - name: "3.1.5.6 ABF_CONTACT_ATTRIBUTE sn"
+                    href: 73265ea0-6555-4087-b489-da1496634418.md
+                  - name: "3.1.5.7 ABF_CONTACT_ATTRIBUTE givenName"
+                    href: f3fcf749-e063-4c4e-96a6-99e27fab4478.md
+                - name: "3.1.6 ABSUser2 Contact"
+                  href: 7dbafead-52be-4f08-ad40-a7add7aebed5.md
+                  items:
+                  - name: "3.1.6.1 ABF_CONTACT"
+                    href: 9811faa1-cab5-47e3-9a71-837095c1f9e0.md
+                  - name: "3.1.6.2 ABF_CONTACT_ATTRIBUTE telephoneNumber"
+                    href: 484c2651-6657-4ef0-9c66-dd46e585d3a4.md
+                  - name: "3.1.6.3 ABF_CONTACT_ATTRIBUTE telephoneNumber, normalized"
+                    href: ff9e3ccd-36d5-455d-af60-10b2f2a660ee.md
+                  - name: "3.1.6.4 ABF_CONTACT_ATTRIBUTE msRTCSIP-PrimaryUserAddress"
+                    href: 055aca03-f480-4673-b51c-77690365f076.md
+                  - name: "3.1.6.5 ABF_CONTACT_ATTRIBUTE displayName"
+                    href: f1fa1e3a-bbcb-40d2-9987-fd21fab64cbe.md
+                  - name: "3.1.6.6 ABF_CONTACT_ATTRIBUTE sn"
+                    href: 790cf8d3-209a-4aae-9a23-99bb87dc9d8a.md
+                  - name: "3.1.6.7 ABF_CONTACT_ATTRIBUTE givenName"
+                    href: d5c7bca8-7de5-4f08-a4dd-80b023646a39.md
+                - name: "3.1.7 ABF_CONTACT"
+                  href: e2aba349-97ca-44f5-bcf6-54e8215fcb08.md
+                - name: "3.1.8 ABF_DELTA_TRAILER"
+                  href: f55f3d54-8f19-4528-b7f5-bfc12c459fbd.md
+                - name: "3.1.9 ABF_TRAILER_LENGTH"
+                  href: 929419d2-c90b-475a-acdf-5978aa814dac.md
+              - name: "3.2 Compressed Address Book File"
+                href: 868ed3a4-06ac-44c0-9d73-2cc32774198b.md
+              - name: "3.3 COMPRESSED_BLOCK_HEADER"
+                href: c86688c0-7ae6-4afa-944d-900ad3abf2aa.md
+            - name: "4 Security Considerations"
+              href: ddf88f47-61b0-4848-bdec-7e61aa0d9230.md
+              items:
+              - name: "4.1 Security Considerations for Implementers"
+                href: 82b4e5f6-c78a-4851-8801-a85533d198e3.md
+              - name: "4.2 Index of Security Fields"
+                href: bf173788-1deb-403c-8859-11e77fb3b4c3.md
+            - name: "5 Appendix A: Compression Format"
+              href: 5c0d93f6-05b1-421f-b971-ab547414a6d2.md
+              items:
+              - name: "5.1 32-Bit CRC Algorithm"
+                href: 06966aa2-70da-4bf9-8448-3355f277cd77.md
+              - name: "5.2 Compressed Data Format"
+                href: fa1b4d95-a562-4322-9483-11aaeb06293a.md
+              - name: "5.3 Run Encoding"
+                href: 0ffecae3-c309-45d3-bbd0-b0b6d57d9a1a.md
+              - name: "5.4 Pseudo Code to Encode Offset and Length into a Token"
+                href: 37627fd8-daa9-4598-a892-afa47b7eea81.md
+              - name: "5.5 Pseudo Code to Decompress an Address Book File"
+                href: 85b0a5ae-1558-4690-ba1d-6708488fe5ee.md
+                items:
+                - name: "5.5.1 Function to Decompress a File"
+                  href: 7e434c5e-bd66-4911-8dc1-659b3ddfcf58.md
+                - name: "5.5.2 Function to Decompress the Bytes in a Block"
+                  href: 04d787e6-43ba-4c58-accc-d72dd3973315.md
+            - name: "6 Appendix B: Hash Function"
+              href: 5af7bd1a-a87f-4f2a-8485-bd10d85534fa.md
+            - name: "7 Appendix C: Active Directory Scanning Algorithm"
+              href: 79750d26-128e-4564-9969-aa94f4632b47.md
+            - name: "8 Appendix D: Product Behavior"
+              href: 23412d36-c1b8-490b-b1c1-d700e0422bd4.md
+            - name: "9 Change Tracking"
+              href: 6651a5c3-fd4a-4bcb-93a8-b37e76465641.md
+            - name: "10 Index"
+              href: c513dae8-f220-4dfd-a90e-1024a650d0dd.md
